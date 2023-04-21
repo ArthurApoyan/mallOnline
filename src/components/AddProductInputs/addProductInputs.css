@@ -1,0 +1,31 @@
+.addProductInputs > input{
+    width: 100%;
+    padding: 1% 1% 1% 2%;
+    margin-bottom: 15%;
+    font-size: 22px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.addProductInputs > input:focus{
+    border-bottom: 2px solid black;
+}
+.addProductInputs{
+    width: 70%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addProductInputs > button{
+    background-color: #1b9a6f;
+    color: white;
+    border-radius: 15px;
+    padding: 2% 7%;
+    font-size: 26px;
+    font-weight: bold;
+}
+.addProductInputs > button:hover{
+    cursor: pointer;
+    background-color: #055d3f;
+}

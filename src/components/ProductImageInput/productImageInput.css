@@ -1,0 +1,30 @@
+.imageSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+}
+.imageSectionLabel{
+    height: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    background-color: #174c85;
+    padding: 4%;
+}
+.imageSectionLabel:hover{
+    cursor: pointer;
+    background: rgb(12,120,162);
+    background: radial-gradient(circle, rgb(12, 86, 114) 0%, rgb(4, 34, 72) 100%);
+}
+#productImageInput{
+    display: none;
+}
+.imageSelection{
+    transform:scale(2);
+}

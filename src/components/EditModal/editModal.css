@@ -1,0 +1,60 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: gray;
+    opacity: 0.7;
+    z-index: 1;
+}
+.editProductInputs{
+    width: 30%;
+    padding: 1% 2% 2% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5d3d3;
+    position: absolute;
+    left: 34%;
+    top: 20%;
+    border: 2px solid black;
+    border-radius: 15px;
+    z-index: 2;
+}
+.editProductInputs > input{
+    width: 100%;
+    padding: 1% 1% 1% 2%;
+    margin-bottom: 12%;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.editProductInputs > input:focus{
+    border-bottom: 2px solid black;
+}
+.closeButton{
+    margin-left: 90%;
+    margin-bottom: 5%;
+    border-radius: 50%;
+    padding: 3px 8px;
+    font-size: 18px;
+}
+.closeButton:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.editButton{
+    background-color: #1b9a6f;
+    color: white;
+    border-radius: 15px;
+    padding: 2% 7%;
+    font-size: 26px;
+    font-weight: bold;
+}
+.editButton:hover{
+    cursor: pointer;
+    background-color: #055d3f;
+}

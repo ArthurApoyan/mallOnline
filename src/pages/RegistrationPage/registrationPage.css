@@ -1,0 +1,33 @@
+.registrationPageContainer{
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+}
+.registrationPageContent{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(0,24,48);
+    background: linear-gradient(90deg, rgba(0,24,48,1) 50%, rgba(255,255,255,1) 50%);
+}
+.registrationPageTitle{
+    width: 40%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 1%;
+}
+.titleLink{
+    color: #1b9a6f;
+    font-size: 35px;
+}
+.titleLink:hover{
+    color: #096747;
+}

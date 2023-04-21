@@ -1,0 +1,68 @@
+.usersTable{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2% 0;
+}
+.usersContainer{
+    width: 60%;
+    height: 80%;
+}
+.usersContainer > table{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    background-color: #3f7005;
+}
+.usersContainer > table{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.usersContainer > table > thead > tr > th{
+    padding: 1%;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.usersContainer > table > tbody > tr > td{
+    padding: 2%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.usersContainer > table > tbody > tr > td > button{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 2% 10%;
+}
+.usersContainer > table > tbody > tr > td > button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.buttonsTd{
+    background-color: #3f7005 !important;
+    border: none !important;
+}
+.usersTableButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.usersTableButtons > button{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #075707;
+    color: white;
+}
+.usersTableButtons > button:hover{
+    cursor: pointer;
+    background-color: #157915;
+}
+.usersTableButtons > button:disabled{
+    background-color: #535653;
+    cursor: no-drop;
+}

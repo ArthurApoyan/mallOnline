@@ -1,0 +1,45 @@
+.logOutHeader{
+    width: 93%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4% 0 3%;
+    background: rgb(48,7,107);
+    background: linear-gradient(180deg, rgba(48,7,107,1) 0%, rgba(82,11,241,1) 100%);
+    box-shadow: 0 0 20px 10px;
+    position: fixed;
+    z-index: 1;
+}
+.logoLink{
+    color: #03c485;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navBarLogOut{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+.logOutHeaderLinks{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.logOutHeaderLink{
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #047c55;
+    padding: 2px 4% 3px 4%;
+}
+.logOutHeaderLink:hover{
+    background-color: #1ab784;
+}

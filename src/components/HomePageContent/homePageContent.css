@@ -1,0 +1,22 @@
+.homePageContentContainer{
+    width: 100%;
+    padding-top: 4%;
+}
+.homePageContentContainer > hr{
+    width: 90%;
+}
+.homePageContentTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.homePageContentTitle > div{
+    width: 70%;
+    text-align: center;
+}
+.homePageContentTitle > div > h1{
+    font-size: 48px;
+}
+.homePageContentTitle > div > p{
+    font-size: 30px;
+}

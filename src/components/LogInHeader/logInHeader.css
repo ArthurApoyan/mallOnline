@@ -1,0 +1,77 @@
+.logInHeader{
+    width: 93%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4% 0 3%;
+    background: rgb(48,7,107);
+    background: linear-gradient(180deg, rgb(27, 3, 63) 0%, rgb(67, 11, 194) 100%);
+    box-shadow: 0 0 10px 5px;
+    position: fixed;
+    z-index: 3;
+}
+.logoLink{
+    color: #03c485;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navBar{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.navBar > li{
+    list-style: none;
+}
+.navBarLink{
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: white;
+}
+.navBarLink:hover{
+    color: #fc8905;
+}
+.navBarLink.active{
+    color: #fc8905;
+    border-bottom: 3px solid #fc8905;
+    border-radius: 5px;
+}
+.signOut > button{
+    padding: 5px 10px;
+    background-color: #1b9a6f;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+.signOut > button:hover{
+    background-color: #38ce9b;
+    cursor: pointer;
+}
+.userName{
+    width: 10%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.userName > p{
+    overflow: hidden;
+}
+.userInfo{
+    position: absolute;
+    top: 70px;
+    right: 270px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1% 2%;
+}
+.userInfo > p > span{
+    font-weight: 500;
+}

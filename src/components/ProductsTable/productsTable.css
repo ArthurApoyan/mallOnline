@@ -1,0 +1,69 @@
+.productsTable{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.productsContainer{
+    width: 80%;
+    position: relative;
+}
+.productsContainer > table{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    background-color: #1d5898;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.productsContainer > table > thead > tr > th{
+    padding: 1%;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.productsContainer > table > tbody > tr > td{
+    background-color: #d7d0d0;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.productsContainer > table > tbody > tr > td > button{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2% 10%;
+}
+.productsContainer > table > tbody > tr > td > button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.productImg{
+    width: 200px;
+}
+.productsButtonsTd{
+    background-color: #1d5898 !important;
+    border: none !important;
+}
+.productsTableButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25%;
+    padding-top: 1%;
+}
+.productsTableButtons > button{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #0b3c72;
+    color: white;
+}
+.productsTableButtons > button:hover{
+    cursor: pointer;
+    background-color: #1560b2;
+}
+.productsTableButtons > button:disabled{
+    background-color: #535653;
+    cursor: no-drop;
+}

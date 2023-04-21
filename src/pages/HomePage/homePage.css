@@ -1,0 +1,30 @@
+.homePage{
+    padding-bottom: 5%;
+}
+.homePageBackground{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    position: relative;
+}
+.homePageBackground > img{
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+.homePageBackground > div{
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    top: 15%;
+    left: 3%;
+}
+.homePageBackground > div > h2{
+    font-size: 110px;
+    color: #f0f1f3;
+}
+.homePageBackground > div > h3{
+    font-size: 50px;
+    color: #5d3606;
+}

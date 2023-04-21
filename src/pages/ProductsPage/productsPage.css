@@ -1,0 +1,102 @@
+.cartButton{
+    margin-top: 4.5%;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+    background: rgb(48,7,107);
+    background: linear-gradient(180deg, rgb(65, 7, 152) 0%, rgb(71, 21, 183) 100%);
+    box-shadow: 0 0 20px 2px;
+    z-index: 1;
+}
+.cartButton > button{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #1b9a6f;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 28px;
+}
+.cartButton > button:hover{
+    background-color: #2cbe8d;
+    cursor: pointer;
+}
+.cartButton > div{
+    margin-top: -7px;
+    margin-left: -12px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 0 7px;
+    background-color: red;
+    color: white;
+}
+.openCart{
+    width: 40%;
+    top: 20%;
+    left: 29%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    position: fixed;
+}
+.productsListContainer{
+    padding: 12% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: 45%;
+    margin-bottom: 50px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.productImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productImage > img{
+    width: 250px;
+    margin-bottom: 20px;
+}
+.productImage > span > span{
+    font-weight: bold;
+}
+.productInfo{
+    width: 40%;
+}
+.productInfo > span > span{
+    font-weight: bold;
+    color: #4d7f10;
+}
+.productInfo > p{
+    overflow: auto;
+    max-height: 140px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+}
+.productInfo > p::-webkit-scrollbar{
+    width: 5px;
+}
+.productInfo > p::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.productInfo > p::-webkit-scrollbar-thumb {
+    background: #757474;
+    border-radius: 10px;
+}
